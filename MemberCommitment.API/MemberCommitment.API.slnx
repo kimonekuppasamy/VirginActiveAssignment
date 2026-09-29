@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MemberCommitment.API.Tests/MemberCommitment.API.Tests.csproj" />
+  <Project Path="VirginActiveAssignment/VirginActiveAssignment.csproj" />
+</Solution>
