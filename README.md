@@ -365,3 +365,11 @@ This can be deployed via **Azure DevOps**.
 - The in-memory store loses data on restart and doesn't work across multiple instances.
 - There's one shared API key.
 - The code checks the member exists before validating the input.
+
+## AI Usuage
+
+Claude Code integrated with VSCode.
+
+1. Used to create unit tests based on the criteria given in the spec document, these are iterated as I built the application, where I check my logic against the tests outcomes
+2. Help with implementing and teaching me to create the correlationId middleware which I then used as a template to create the APIKey middleware
+3. Formatting my Readme file to be more readable after I added the text
