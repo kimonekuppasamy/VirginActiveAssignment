@@ -330,11 +330,11 @@ Response:
 
 ### 4. How would you provision the Azure infrastructure and deploy the application? Describe the tooling you would use and what a production-ready pipeline would look like.
 
-Though I have not created infrastructure in Azure previously, I would opt to use **Terraform** for the following reasons:
+Though I have not created infrastructure in Azure previously, I am familiar with creating infrastructure both manually and via IaS so I would opt to use **Terraform** for the following reasons:
 
 1. **Security**: this can be part of a PR, so no manual changes.
 2. **Consistency**: all required infrastructure is defined in templates that can be used across environments, which helps ensure that all environments are aligned.
-3. **Access control**: permissions and access control can also be defined here.
+3. **Access control**: permissions, access control and policies can also be defined here.
 
 This can be deployed via **Azure DevOps**.
 
@@ -354,10 +354,10 @@ This can be deployed via **Azure DevOps**.
 
 ### Improve
 
-- Move business logic out of controllers into a service layer. The controllers currently handle caching, validation and state changes themselves.
+- Move business logic out of controllers into a service layer/handlers. The controllers currently handle caching, validation and state changes themselves.
 - Check that `memberId` in the route matches `memberId` in the request body.
 - Return validation errors as a structured list per field.
-- Broaden the integration tests.
+- Broaden the tests to outside of just the business logic tests.
 - Fix the remaining nullable reference warnings.
 
 ### Trade-offs
