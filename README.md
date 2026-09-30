@@ -373,3 +373,4 @@ Claude Code integrated with VSCode.
 1. Used to create unit tests based on the criteria given in the spec document, these are iterated as I built the application, where I check my logic against the tests outcomes
 2. Help with implementing and teaching me to create the correlationId middleware which I then used as a template to create the APIKey middleware
 3. Formatting my Readme file to be more readable after I added the text
+4. Help incorporating AddResilienceHandler into the codebase
